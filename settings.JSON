@@ -1,0 +1,66 @@
+{
+  "general_settings": [
+    {
+      "aspect_ratio_width": 3,
+      "aspect_ratio_height": 4.5,
+      "image_resize": 1300,
+      "image_rotate_degrees": 0,
+      "detection_sensitivity": 0.65,
+      "gaussian_w": 5,
+      "gaussian_h": 5,
+      "gaussian_sigma": 1,
+      "k_1_erode_w": 2,
+      "k_1_erode_h": 5,
+      "k_2_dilate_w": 5,
+      "k_2_dilate_h": 20,
+      "k_3_erode_w": 6,
+      "k_3_erode_h": 1
+    }
+  ],
+  "regions": [
+      {
+      "name": "time",
+      "max_digits" : 4,
+      "format" : 2,
+      "loc_top" : 94,
+      "loc_bot" : 178,
+      "loc_left" : 77,
+      "loc_right" : 273
+    },
+    {
+      "name": "set_temperature",
+      "format" : 1,
+      "max_digits" : 2,
+      "loc_top" : 205,
+      "loc_bot" : 283,
+      "loc_left" : 18,
+      "loc_right" : 112
+    },
+    {
+      "name": "program",
+      "max_digits" : 1,
+      "format" : 3,
+      "loc_top" : 208,
+      "loc_bot" : 281,
+      "loc_left" : 231,
+      "loc_right" : 277
+    },
+    {
+      "name": "furnace_indicator",
+      "format" : 4,
+      "loc_top" : 317,
+      "loc_bot" : 430,
+      "loc_left" : 7,
+      "loc_right" : 62
+    },
+    {
+      "name": "room_temperature",
+      "max_digits" : 3,
+      "format" : 1,
+      "loc_top" : 319,
+      "loc_bot" : 439,
+      "loc_left" : 62,
+      "loc_right" : 260
+    }
+  ]
+}
